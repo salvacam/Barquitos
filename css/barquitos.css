@@ -1,0 +1,81 @@
+
+html, body {
+	margin: auto;
+	width: 1024px;
+	background-color: black;
+}
+div#panel {
+	position: relative;
+	width: 1024px;
+	height: 863px;
+	background: black url("../images/panel.jpg") no-repeat left top;
+}
+div#areaMensaje {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: rgb(83, 175, 19);
+}
+
+div#partidas {
+	position: absolute;
+	top: 30px;
+	right: 90px;
+	color: rgb(83, 175, 19);
+}
+.tocado, .tocado:hover {
+	background:  transparent url("../images/barco.png") no-repeat center center;
+}
+td:hover{
+    background-image: url("../images/puntero.png");
+    cursor: none;
+}
+
+td.ancla:hover{
+    background-image: url("../images/ancla.png");
+}
+
+td.ancla.colocado{
+    background-color: lightblue;
+}
+td.ancla.posible{
+    background-color: purple;
+}
+
+.hundido, .hundido:hover {
+	background:  transparent url("../images/barco_tocado.png") no-repeat center center;
+}
+.agua, .agua:hover {
+	background: transparent url("../images/agua.png") no-repeat center center;
+}
+form {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	padding: 15px;
+	background-color: rgb(83, 175, 19);
+}
+table {
+	border-spacing: 0px;
+	position: absolute;
+	left: 173px;
+	top: 98px;
+}
+td {
+	width: 94px;
+	height: 94px;
+}
+#modal{
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 180%;
+    left: 45%;
+    padding: 10px;
+    margin: 0 auto;
+    background: grey;
+    color: black;        
+}
+#modal span{    
+    font-size: 80%;
+}
